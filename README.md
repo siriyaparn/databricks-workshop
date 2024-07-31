@@ -13,4 +13,4 @@ Sign up for Databricks Community Edition at [community.cloud.databricks.com](htt
 https://github.com/siriyaparn/databricks-workshop/blob/main/data-engineering-workshop.dbc
 ```
 
-
+In Databricks, when a notebook is executed, it creates a Spark object, which is a Spark session. It is this Spark session that is the heart of Spark during any execution. Loosely speaking, a notebook can be viewed as a Spark application, sharing a single Spark session and therefore sharing any data read by it.
